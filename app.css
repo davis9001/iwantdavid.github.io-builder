@@ -10,3 +10,11 @@ body{font-family:'Raleway',sans-serif;font-size:18px;}hr{text-align:center;margi
     border-color: black !important;
     color:  black !important;
 }
+
+code {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
