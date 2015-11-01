@@ -22,3 +22,8 @@ code {
 button:hover, button:focus, .button:hover, .button:focus {
     background-color: #73D0FF;
 }
+
+ul button:hover, ul button:focus, ul .button:hover, ul .button:focus {
+    background-color: #000;
+    color: green;
+}
