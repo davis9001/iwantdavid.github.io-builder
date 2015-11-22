@@ -62,7 +62,7 @@ gulp.task('sass', function() {
 
 // Images
 gulp.task('image', function() {
-  gulp.src('./image/*')
+  gulp.src('./src/image/*')
     .pipe(gulp.dest('./build/image'));
 });
 
