@@ -1,0 +1,198 @@
+- var pagename = 'Tutor'
+- var heroTitle = 'Tutoring in Chandler, Arizona.'
+- var heroParagraph = "JavaScript, Python, Ruby, PHP, CSS and HTML."
+
+include ../include/header.jade
+
+include ../include/hero.jade
+
+a(name='about')
+section.hero-content
+  .row
+    .large-8.columns.about-content
+      h4 Fast Paced Tutoring
+      p I'm self-taught and I know how to learn quickly. Let me show you how I work to adapt to new environments with a focus on pragmatism.
+      p My curriculum is centered on open-source web-based technologies including JavaScript, CSS, HTML, Python, Ruby, Perl, PHP and more.
+      ul.small-block-grid-1.text-center
+        li
+          a.button.dark(href='mailto:monaghan.david@gmail.com?subject=Tutor Me') Tutor Me
+    .large-4.columns.show-for-large-up.hide-on-print
+      ul.small-block-grid-2
+        li
+          a(href='#')
+            img(src='/image/hl1.png')
+        li
+          a(href='#')
+            img(src='/image/hl2.png')
+        li
+          a(href='#')
+            img(src='/image/hl3.png')
+        li
+          a(href='#')
+            img(src='/image/hl4.png')
+section
+  .row
+    .large-12.columns
+      h3 Which step are you on?
+      p Look through the following programming concepts and note those which you are and those which you are not familiar with.
+      
+      h4 Front End Markup and Scripting
+      p Still learning the basics.
+
+      h5 HTML:
+      code
+        = '<html></html>'
+
+      h5 XML/XHTML:
+      code
+        = '<mytag></mytag>'
+
+      h5 Variables:
+      code var foo = 'string';
+      
+      h5 Conditions:
+      code if (5 > 10) { print 'no'; }
+
+      h5 Loops:
+      code.
+        var x = 1;
+        var y = 0;
+        while(x > y) {
+          print 'x:y';
+          x++;
+        }
+      
+      h5 Functions:
+      code.
+        function hello(x, cb) {
+          print 'Hello' + x;
+          cb('Hello ' + x);
+        }
+
+      h5 Objects:
+      code.
+        class Object {
+          var X = 1;
+          function methodYellow() {
+            return X + 1 * 2;
+          }
+        }
+
+      h5 Methods and Attributes:
+      code.
+        class Object {
+          var attribute = 1;
+          function method() {
+            return attribute + 1 * 2;
+          }
+        }
+      
+      h5 Libraries:
+      code
+        = "<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>"
+
+      h4 Development Environments
+      p Trying out and customizing your code editor, console, and other development software.
+
+      h5 Local Build Systems, Task Runners and Package Managers
+      ul
+        li NPM
+        li Gulp
+        li Grunt
+        li Bower
+
+      h5 Dependency Managers:
+      ul
+        li Browserify
+        li Webpack
+
+      h4 Servers and Databases
+      p Loading requests and storing data server-side.
+
+      h5 Languages:
+      ul
+        li Ruby
+        li Node
+        li PHP
+        li Python
+
+      h5 Databases:
+      ul
+        li MySQL
+        li Postgres
+        li Redis
+
+      h4 Frameworks and Pluggable Software
+      p Avoiding reinventing the wheel by using existing solutions.
+
+      h5 Web Frameworks:
+      ul
+        li Rails
+        li Flask
+        li Django
+        li Laravel
+
+      h5 API Concepts and Languages:
+      ul
+        li REST
+        li AJAX and JSON
+        li XML-RPC
+
+      h5 Modular Software
+      ul
+        li Mozilla
+        li Chrome
+        li WordPress
+        li iOS
+        li CommonJS/AMD
+        li Node
+        li Ruby
+        li Python
+        li PHP
+
+      h4 Development Environments
+      p Making it easier and quicker for development teams to work on projects.
+
+      h5 Manifests
+      ul
+        li package.json
+        li requirements.txt
+        li bower.json
+
+      h5 Virtual Environments
+      ul
+        li rbenv
+        li virtualenv
+
+      h5 Virtual Machines
+      ul
+        li Vagrant
+        li Docker
+
+      h4 Algorithms and Machine Learning
+      p Creating abstract solutions to solve complex problems given large data sets.
+
+      h5 Big Data
+      ul
+        li Mongo
+        li Hadoop
+
+      h5 Algorithms
+      ul
+        li Dynamic Array
+        li Linked List
+        li Stack
+        li Queue
+        li Binary Search
+        li Binary Search Tree
+        li Hash Map
+        li Depth First Search
+        li Breadth First Search and Merge Sort
+
+      h5 Machine Learning Libraries
+      ul
+        li Mahout
+        li scikit-learn
+        li ml
+
+include ../include/footer.jade

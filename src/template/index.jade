@@ -1,0 +1,39 @@
+- var pagename = 'Welcome'
+- var heroTitle = 'I live in Chandler, Arizona.'
+- var heroParagraph = "I'm a self-taught software developer."
+
+include ./include/header.jade
+
+include ./include/hero.jade
+
+a(name='about') 
+section.hero-content
+  .row
+    .large-8.columns.about-content
+      h4 I Like Software
+      
+      p I&apos;m a self-taught software developer from Phoenix, Arizona. My passions include quantum physics, consciousness, and everything related to electronics. My first introduction to computer languages was with HTML in 9th grade at high school 1997. I have since learned and used CSS, JavaScript, PHP, Perl, Python, Ruby and more... My focus has always remained in Open Source technologies and I prefer to actively share knowledge while seeking truth.
+      
+      p My #[a(href='/software') software development] and #[a(href='/tutor', title='tutoring') tutoring] services are currently available for hire.
+      
+      ul.small-block-grid-2.text-center
+        li
+          a.button.dark(href='/software', title='') Software Development
+        li
+          a.button.dark(href='/tutor') Tutoring
+    .large-4.columns.show-for-large-up.hide-on-print
+      ul.small-block-grid-2
+        li
+          a(href='#')
+            img(src='/image/hl1.png')
+        li
+          a(href='#')
+            img(src='/image/hl2.png')
+        li
+          a(href='#')
+            img(src='/image/hl3.png')
+        li
+          a(href='#')
+            img(src='/image/hl4.png')
+
+include ./include/footer.jade
