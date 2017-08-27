@@ -66,6 +66,12 @@ gulp.task('image', function() {
     .pipe(gulp.dest('./build/image'));
 });
 
+// Files
+gulp.task('file', function() {
+  gulp.src('./src/file/**')
+    .pipe(gulp.dest('./build/file'));
+});
+
 // browser sync server for live reload
 gulp.task('serve', function() {
   browserSync.init({
